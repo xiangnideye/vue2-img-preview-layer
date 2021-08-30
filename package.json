@@ -1,7 +1,11 @@
 {
-  "name": "img_preview",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue2-img-preview-layer",
+  "version": "0.1.8",
+  "private": false,
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
@@ -15,6 +19,12 @@
     "@vue/cli-service": "~4.5.0",
     "vue-template-compiler": "^2.6.11"
   },
+  "main": "./src/index.js",
+  "keywords": [
+    "vue",
+    "img",
+    "preview"
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions",

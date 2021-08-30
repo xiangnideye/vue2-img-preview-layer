@@ -1,19 +1,15 @@
-# img_preview
+# vue2-img-preview-layer
 
 ## Project setup
-```
-npm install
+vue2 - img prerview
+
+```js
+  import Vue2Preview from 'vue2-img-preview-layer'
+
+  Vue.use(Vue2Preview)
+
 ```
 
-### Compiles and hot-reloads for development
+```js
+<preview :imgSrc="imgsrc"></preview>
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
