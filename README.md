@@ -13,3 +13,7 @@
 ```js
 <preview :imgSrc="imgsrc"></preview>
 ```
+
+```js
+github 地址： https://github.com/xiangnideye/vue2-img-preview-layer
+```
